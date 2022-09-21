@@ -1,2 +1,6 @@
-﻿  14891.cpp
+﻿  17140.cpp
+C:\Users\김동하\source\repos\SamsungCondingTest\17140.cpp(38,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\김동하\source\repos\SamsungCondingTest\17140.cpp(50,15): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\김동하\source\repos\SamsungCondingTest\17140.cpp(62,23): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\김동하\source\repos\SamsungCondingTest\17140.cpp(74,15): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
   SamsungCondingTest.vcxproj -> C:\Users\김동하\source\repos\SamsungCondingTest\Debug\SamsungCondingTest.exe
