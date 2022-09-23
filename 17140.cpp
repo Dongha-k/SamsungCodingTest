@@ -7,8 +7,8 @@ using namespace std;
 typedef pair<int, int> P;
 int r, c, k;
 bool comp(const P& a, const P& b) {
-	if (a.first < b.first) return true;
-	else if (a.first == b.first and a.second < b.second) return true;
+	if (a.second < b.second) return true;
+	else if (a.second == b.second and a.first < b.first) return true;
 	else return false;
 }
 int main() {
@@ -23,7 +23,7 @@ int main() {
 		}
 	}
 	int t = 0;
-	while (t < 100) {
+	while (t <= 100) {
 		if (A[r - 1][c - 1] == k) {
 			cout << t;
 			return 0;
@@ -41,16 +41,16 @@ int main() {
 				
 				sort(cntLst.begin(), cntLst.end(), comp);
 				int idx = 0;
-				for (P cnt : cntLst) {
-					A[i][idx++] = cnt.second;
-					A[i][idx++] = cnt.first;
+				for (P cntElem : cntLst) {
+					A[i][idx++] = cntElem.first;
+					A[i][idx++] = cntElem.second;
 				}
 				for (int j = idx; j < 100; j++) A[i][j] = 0;
 				
-				if (max_r < cntLst.size() * 2) max_r = cntLst.size() * 2;
+				if (max_r < idx) max_r = idx;
 				cntLst.clear();
 			}
-			m = max_r;
+			m = min(100, max_r);
 		}
 		else {
 			//C ¿¬»ê
@@ -65,21 +65,19 @@ int main() {
 
 				sort(cntLst.begin(), cntLst.end(), comp);
 				int idx = 0;
-				for (P cnt : cntLst) {
-					A[idx++][j] = cnt.second;
-					A[idx++][j] = cnt.first;
+				for (P cntElem : cntLst) {
+					A[idx++][j] = cntElem.first;
+					A[idx++][j] = cntElem.second;
 				}
 				for (int i = idx; i < 100; i++) A[i][j] = 0;
 
-				if (max_c < cntLst.size() * 2) max_c = cntLst.size() * 2;
+				if (max_c < idx) max_c = idx;
 				cntLst.clear();
 			}
-			n = max_c;
+			n = min(100, max_c);
 		}
 		t++;
-
 	}
-	
 	cout << -1;
 	return 0;
 }
