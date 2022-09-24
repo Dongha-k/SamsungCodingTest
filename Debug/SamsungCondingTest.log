@@ -1,5 +1,2 @@
-﻿  20055.cpp
-C:\Users\김동하\source\repos\SamsungCondingTest\20055.cpp(14,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\김동하\source\repos\SamsungCondingTest\20055.cpp(20,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\김동하\source\repos\SamsungCondingTest\20055.cpp(33,20): warning C4018: '<': signed/unsigned mismatch
+﻿  14499.cpp
   SamsungCondingTest.vcxproj -> C:\Users\김동하\source\repos\SamsungCondingTest\Debug\SamsungCondingTest.exe
