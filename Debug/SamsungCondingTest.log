@@ -1,4 +1,2 @@
-﻿  tail-catch-play.cpp
-C:\Users\김동하\source\repos\SamsungCondingTest\tail-catch-play.cpp(70,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\김동하\source\repos\SamsungCondingTest\tail-catch-play.cpp(73): warning C4715: 'findOrder': not all control paths return a value
+﻿  tree-kill-all.cpp
   SamsungCondingTest.vcxproj -> C:\Users\김동하\source\repos\SamsungCondingTest\Debug\SamsungCondingTest.exe
