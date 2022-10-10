@@ -1,3 +1,4 @@
-﻿  artistry.cpp
-C:\Users\김동하\source\repos\SamsungCondingTest\artistry.cpp(46,20): warning C4018: '<': signed/unsigned mismatch
+﻿  hide-and-seek.cpp
+C:\Users\김동하\source\repos\SamsungCondingTest\hide-and-seek.cpp(76,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\김동하\source\repos\SamsungCondingTest\hide-and-seek.cpp(181,24): warning C4018: '<=': signed/unsigned mismatch
   SamsungCondingTest.vcxproj -> C:\Users\김동하\source\repos\SamsungCondingTest\Debug\SamsungCondingTest.exe
