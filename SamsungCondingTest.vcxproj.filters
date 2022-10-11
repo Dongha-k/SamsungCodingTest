@@ -78,7 +78,7 @@
     <ClCompile Include="dragon-curve.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="min-of-hospital-distance%28unfinished%29.cpp">
+    <ClCompile Include="min-of-hospital-distance.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

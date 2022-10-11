@@ -43,7 +43,7 @@ void f(int k, int n, int start) {
 		return;
 	}
 
-	for (int i = 0; i < score.size(); i++) {
+	for (int i = start; i < score.size(); i++) {
 		if (!used[i]) {
 			used[i] = true;
 			idxs[k] = i;
@@ -51,9 +51,12 @@ void f(int k, int n, int start) {
 			used[i] = false;
 		}
 	}
-	
+
 }
 int main() {
+	ios_base::sync_with_stdio(false);
+	cin.tie(NULL);
+	cout.tie(NULL);
 	cin >> n >> m;
 	for (int i = 0; i < n; i++) {
 		for (int j = 0; j < n; j++) {
