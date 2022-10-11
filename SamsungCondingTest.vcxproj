@@ -178,7 +178,7 @@
     <ClCompile Include="autonomous-driving.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="cooling-system%28unfinished%29.cpp">
+    <ClCompile Include="cooling-system.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="dragon-curve.cpp">

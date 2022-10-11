@@ -69,7 +69,7 @@
     <ClCompile Include="sam-pizza-school%28unfinished%29.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="cooling-system%28unfinished%29.cpp">
+    <ClCompile Include="cooling-system.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="arrange-operator.cpp">
