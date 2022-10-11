@@ -1,2 +1,3 @@
-﻿  pacman.cpp
+﻿  min-of-hospital-distance.cpp
+C:\Users\김동하\source\repos\SamsungCondingTest\min-of-hospital-distance.cpp(46,20): warning C4018: '<': signed/unsigned mismatch
   SamsungCondingTest.vcxproj -> C:\Users\김동하\source\repos\SamsungCondingTest\Debug\SamsungCondingTest.exe

@@ -74,7 +74,7 @@ void f(int k, int t) {
 		f(k + 1, t);
 	}
 }
-void packman_move(int t) {
+void pacman_move(int t) {
 	answer = -1;
 	f(0, t);
 	bool visited[4][4] = { false, };
@@ -131,7 +131,7 @@ int main() {
 	
 	for (int i = 1; i <= t; i++) {
 		monster_move(i);
-		packman_move(i);
+		pacman_move(i);
 		hatch(i);
 	}
 	cout << rating(t);

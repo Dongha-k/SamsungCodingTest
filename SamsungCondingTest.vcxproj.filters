@@ -66,5 +66,20 @@
     <ClCompile Include="pacman.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="sam-pizza-school%28unfinished%29.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="cooling-system%28unfinished%29.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="arrange-operator.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="dragon-curve.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="min-of-hospital-distance%28unfinished%29.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
