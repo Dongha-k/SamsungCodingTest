@@ -1,2 +1,8 @@
-﻿  cooling-system(unfinished).cpp
+﻿  maze-tower-defense.cpp
+C:\Users\김동하\source\repos\SamsungCondingTest\maze-tower-defense.cpp(29,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\김동하\source\repos\SamsungCondingTest\maze-tower-defense.cpp(45,16): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\김동하\source\repos\SamsungCondingTest\maze-tower-defense.cpp(60,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\김동하\source\repos\SamsungCondingTest\maze-tower-defense.cpp(72,15): warning C4018: '<': signed/unsigned mismatch
+C:\Users\김동하\source\repos\SamsungCondingTest\maze-tower-defense.cpp(93,22): warning C4018: '>=': signed/unsigned mismatch
+C:\Users\김동하\source\repos\SamsungCondingTest\maze-tower-defense.cpp(95,22): warning C4018: '>=': signed/unsigned mismatch
   SamsungCondingTest.vcxproj -> C:\Users\김동하\source\repos\SamsungCondingTest\Debug\SamsungCondingTest.exe
