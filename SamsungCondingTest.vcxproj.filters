@@ -93,5 +93,11 @@
     <ClCompile Include="colored-bomb.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="go-on-the-rides.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="rotating-glacier.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
