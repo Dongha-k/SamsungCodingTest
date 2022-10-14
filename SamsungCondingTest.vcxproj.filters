@@ -99,5 +99,14 @@
     <ClCompile Include="rotating-glacier.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="cleaning-is-joyful.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="odd-monopoly.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="odd-woodstick-game.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
